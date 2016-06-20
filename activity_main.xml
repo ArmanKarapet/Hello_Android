@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.armkar.hello.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/leopard"
+        android:scaleType="centerCrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Leopard_2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sens-serif-light"
+        android:text="Hello Android! I'm here!"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:paddingBottom="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp" />
+
+    <TextView
+
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="sens-serif-light"
+        android:text="Sincerely from Germany!"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="false"
+        android:paddingBottom="10dp"
+        android:paddingEnd="15dp"
+        android:paddingTop="15dp" />
+
+
+
+
+</RelativeLayout>
